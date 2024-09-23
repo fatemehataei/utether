@@ -1,22 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a uservice project from turing Research team
+<img src="https://github.com/ArminKardan/utrialv2/blob/master/turing.png?raw=true"/>
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
-npm run dev
+npm run devn -- -p 2000
 # or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+yarn dev -p 2000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://xtal.ir/userve](http://xtal.ir/userve) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `components/pages/index.tsx`. The page auto-updates as you edit the file.
+
+<br/>
+<br/>
+<img src=""/>
+<br/>
+<br/
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
