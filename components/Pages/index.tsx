@@ -22,15 +22,17 @@ const Page: PageEl = (props, state, refresh, getProps) => {
          <br-x />
          
 
-
+      <div style={{width:"100%",minHeight: 200 , backgroundImage:"url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9ufcbfix9gcDsZ8OSF5PChkXMDK3xhTi1SQ&s')"}}>
+        
+        
         <div style={{
-          width: "100%", height: 50, backgroundColor: "pink", borderRadius: 10,
-          textAlign: "center", backgroundImage:"dollar.jpg"
-        }}>
+          width: "50%", height: 50, backgroundColor: "white", borderRadius: 20,
+          textAlign: "center", backgroundImage:"url('')",fontSize:14
+                  }}>
 
           <br-x />
           <br-xx />
-          لحظه ای :{(props.p.price as number).toLocaleString("fa-IR")}
+          لحظه ای :{(props.p.price as number).toLocaleString("fa-IR")}&#128178;
           <br-x/>
         </div>
 
@@ -38,42 +40,43 @@ const Page: PageEl = (props, state, refresh, getProps) => {
         
 
         <div style={{
-          width: "100%", height: 50, backgroundColor: "gray", borderRadius: 10,
-          textAlign: "center",
+          width: "50%", height: 50, backgroundColor: "white", borderRadius: 20,
+          textAlign: "center",fontSize:14,
         }}>
           <br-x />
           <br-xx />
-          تغییرات ۲۴ ساعت: ٪ {(Number(props.p.diff24d as number)).toLocaleString("fa-IR")}
+          تغییرات ۲۴ ساعت: ٪ {(Number(props.p.diff24d as number)).toLocaleString("fa-IR")}&#128178;
         </div>
 
         <br-x />
         
 
         <div style={{
-          width: "100%", height: 50, backgroundColor: "pink", borderRadius: 10,
-          textAlign: "center",
+          width: "50%", height: 50, backgroundColor: "white", borderRadius: 20,
+          textAlign: "center",fontSize:14,
         }}>
           <br-x />
           <br-xx />
-        تغییرات هفتگی ٪ {(Number(props.p.diff7d as number)).toLocaleString("fa-IR")}
+        تغییرات هفتگی ٪ {(Number(props.p.diff7d as number)).toLocaleString("fa-IR")}&#128178;
         </div>
 
         <br-x />
         
 
         <div style={{
-          width: "100%", height: 50, backgroundColor: "gray", borderRadius: 10,
-          textAlign: "center",
+          width: "50%", height: 50, backgroundColor: "white", borderRadius: 20,
+          textAlign: "center",fontSize:14,
         }}>
           <br-x />
           
-        تغییرات ماهانه ٪ {(Number(props.p.diff30d as number)).toLocaleString("fa-IR")}
+        تغییرات ماهانه ٪ {(Number(props.p.diff30d as number)).toLocaleString("fa-IR")}&#128178;
         </div>
 
         <br-x/>
         <br-xx/>
+      </div>
 
-        <center style={{fontSize:9}}>
+        <center style={{fontSize:12}}>
           تهیه شده توسط تیم پژوهشی هایزنبرگ
         </center>
 
